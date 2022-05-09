@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #68b461; /* Цвет фона веб-страницы */
+    color: rgb(0, 0, 0); /* Цвет основного текста */ 
+  }
+  h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 24pt; /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-weight: bold; /* Нормальное начертание текста  */
+    text-align: center;
+  }
+  p {
+    text-align: justify; /* Выравнивание по ширине */
+    margin-left: 60px; /* Отступ слева в пикселах */
+    margin-right: 10px; /* Отступ справа в пикселах */
+    border-left: 1px solid #999; /* Параметры линии слева */
+    border-bottom: 1px solid #999; /* Параметры линии снизу */
+    padding-left: 10px; /* Отступ от линии слева до текста  */
+    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+  }
+
+  div {
+    vertical-align: center;
+    text-align: center; /* Выравнивание по ширине */
+    margin-left: 2%; /* Отступ слева в пикселах */
+    margin-right: 2%; /* Отступ справа в пикселах */
+    border-left: 1px solid rgba(0, 0, 0, 0.541); /* Параметры линии слева */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.541);
+    border-right: 1px solid rgba(0, 0, 0, 0.541);
+    border-top: 1px solid rgba(0, 0, 0, 0.541); /* Параметры линии снизу */
+    padding-left: 10px; /* Отступ от линии слева до текста  */
+    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+    width: 100%
+  }
+
+  .three {
+    background-color: brown; 
+  }
+
+  .five {
+      background-color: aliceblue;
+  }
+
+  .one {
+      background-color: aquamarine;
+  }
